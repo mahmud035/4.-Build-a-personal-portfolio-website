@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  color: dimgray;
+  font-size: 18px;
+}
+
+/* Top Banner Section */
+.top-banner {
+  display: flex;
+
+  margin-bottom: 6rem;
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+  /* border: 1px solid red; */
+}
+
+.half-width {
+  flex: 1;
+  width: 40%;
+  margin: 0 5%;
+  padding: 0 2%;
+  /* border: 3px solid hotpink; */
+}
+
+.half-width img {
+  width: 80%;
+  padding-top: 2rem;
+}
+
+.highlight {
+  color: orange;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 8px 14px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Dream Area Section */
+.dream-area {
+  display: flex;
+
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* Experience Section */
+.experience-area {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-area h2 {
+  margin-left: 5%;
+}
+
+.experience-container {
+  display: flex;
+}
+
+.single-experience {
+  flex: 1;
+  box-shadow: 5px 5px 40px gray;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.web-dev {
+  /* border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato); */
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(255, 184, 156), tomato);
+  border-image-slice: 1;
+}
+
+.baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(73, 137, 167), cadetblue);
+  border-image-slice: 1;
+}
+
+/* Footer Section */
+.main-footer {
+  font-size: 12px;
+  text-align: center;
+  color: dimgray;
+  padding: 10px;
+  margin-top: 2rem;
+}
