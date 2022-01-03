@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -81,7 +84,7 @@ p {
   display: flex;
 }
 
-.single-experience {
+.experience-item {
   flex: 1;
   box-shadow: 5px 5px 40px gray;
   border-radius: 5px;
